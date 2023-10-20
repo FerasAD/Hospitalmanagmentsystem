@@ -14,7 +14,7 @@ if (isset($_POST['loginstaff'])) {
 
     if (!$result->fetchArray()) {
         // Invalid login credentials
-        echo "Invalid login credentials.";
+        echo "Invalid login credentials!";
         exit();
     }
 
